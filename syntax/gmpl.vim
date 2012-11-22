@@ -43,7 +43,7 @@ syn match gmplComment '#.\{-}$'
 
 " Keywords
 syn keyword gmplKeyword and else by if cross in diff inter div less mod union not within or symdiff then 
-syn keyword gmplKeyword minimize maximize solve printf for check
+syn keyword gmplType minimize maximize solve printf for check
 syn keyword gmplType set var param nextgroup=gmplLabel skipwhite
 
 " Regions
