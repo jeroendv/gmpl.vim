@@ -38,6 +38,7 @@ syn match gmplRelationalOperator	"[<>]=\="
 
 " comments
 syn match gmplComment /\/\*.\{-}\*\//
+syn region gmplComment start="/\*"  end="\*/"
 syn match gmplComment '#.\{-}$'
 
 
