@@ -41,6 +41,10 @@ syn match gmplComment /\/\*.\{-}\*\//
 syn region gmplComment start="/\*"  end="\*/"
 syn match gmplComment '#.\{-}$'
 
+" strings
+syn region gmplString start="\"" end="\""
+syn region gmplString start="\'" end="\'" contains=gmplStringToken
+syn match gmplStringToken '\%[a-z]' contained
 
 " Keywords
 syn keyword gmplKeyword and else by if cross in diff inter div less mod union not within or symdiff then 
@@ -112,3 +116,5 @@ hi def link gmplNumber Number
 hi def link gmplComment Comment
 hi def link gmplType Type
 hi def link gmplLabel Keyword
+hi def link gmplString String
+hi def link gmplStringToken Special 
