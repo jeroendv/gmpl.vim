@@ -1,6 +1,6 @@
 gmpl.vim
 ========
-A GMPL vim syntax highlight sheet. 
+A GMPL (= _GNU MathProg_) vim syntax highlight sheet. 
 Credit goes to  markjet7 (initial gmpl.vim) and to jeroendv.
 
 Installation
