@@ -52,7 +52,7 @@ syn keyword gmplKeyword minimize maximize solve
 syn keyword gmplType set var param nextgroup=gmplLabel skipwhite
 
 " Regions
-syn region gmplIndexExpression start="{" end="}" transparent contains=gmplIndex
+syn region gmplIndexExpression start="{" end="}" transparent contains=gmplIndex,gmplIndexExpression
 syn region gmplIndexGroup start="\[" end="\]" transparent contains=gmplIndex
 " syn region gmplParen start="(" end=")"  
 
