@@ -26,7 +26,7 @@ syn match gmplNumber '\d[[:digit:]]*[eE][\-+]\=\d\+'
 " Floating point like gmplNumber with E and decimal point (+,-)
 syn match gmplNumber '[-+]\=\d[[:digit:]]*\.\d*[eE][\-+]\=\d\+'
 syn match gmplNumber '\d[[:digit:]]*\.\d*[eE][\-+]\=\d\+'
-syn match gmplIndex   /\<\%(in\>\)\@!\w*/ contained
+syn match gmplIndex   /\<\%(in\>\)\@!\w*/ contained contains=gmplKeyword,gmplNumber
 syn match gmplLabel  '[a-zA-Z][a-zA-Z0-9_]*'
 syn match gmplArithmeticOperator	"[-+]"
 syn match gmplArithmeticOperator	"\.\=[*/\\^]"
