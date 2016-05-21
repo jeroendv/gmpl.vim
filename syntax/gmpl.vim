@@ -10,14 +10,15 @@ endif
 syn sync fromstart
 
 
+syn match gmplArithmeticSetOperator "\.\."
 
 " Integer with - + or nothing in front
 syn match gmplNumber '\d\+'
 syn match gmplNumber '[-+]\d\+'
 
 " Floating point gmplNumber with decimal no E or e (+,-)
-syn match gmplNumber '\d\+\.\d*'
-syn match gmplNumber '[-+]\d\+\.\d*'
+syn match gmplNumber '\d*\.\d\+'
+syn match gmplNumber '[-+]\d*\.\d\+'
 
 " Floating point like gmplNumber with E and no decimal point (+,-)
 syn match gmplNumber '[-+]\=\d[[:digit:]]*[eE][\-+]\=\d\+'
