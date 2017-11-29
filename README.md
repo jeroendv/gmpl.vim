@@ -15,4 +15,5 @@ This syntax file will highlight any GMPL `.mod` file. GMPL is the GLTK language 
 What it looks like
 ==================
 With the `ego.vim` theme and under `macvim`:
+
 ![gmpl.vim syntax file coloring for .mod (GMPL) files](http://img11.hostingpics.net/pics/671756Capturedcran20150330122409.png)
