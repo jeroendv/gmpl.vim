@@ -1,12 +1,18 @@
 gmpl.vim
 ========
 
-A GMPL vim syntax highlight sheet
+![gmpl.vim syntax file coloring for .mod (GMPL) files](http://img11.hostingpics.net/pics/671756Capturedcran20150330122409.png)
+
+(using the `ego.vim` theme and under `macvim`)
+
+A GMPL (= _GNU MathProg_) vim syntax highlight sheet. 
+Credit goes to  markjet7 (initial gmpl.vim) and to jeroendv.
 
 Installation
 ============
-Copy to your vim syntax folder
+With `vundle`, use the in-vim command `:Plugin 'maelvalais/gmpl.vim'`
+Without `vundle`, copy the content of each folder `syntax` and `ftdetect` into your `~/.vim` folder.
 
 Usage
 =====
-Will highlight gmpl 'mod' file syntax based on theme colors.
+This syntax file will highlight any GMPL `.mod` file. GMPL is the GLTK language (GTLK is a GNU linear programming solver).
